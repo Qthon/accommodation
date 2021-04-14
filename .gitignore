@@ -11,10 +11,22 @@
 .env.*.local
 
 # Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+/accommodation-admin/npm-debug.log*
+/accommodation-serve-node/npm-debug.log*
+/accommodation-stu/npm-debug.log*
+
+/accommodation-admin/yarn-debug.log*
+/accommodation-serve-node/yarn-debug.log*
+/accommodation-stu/yarn-debug.log*
+
+/accommodation-admin/yarn-error.log*
+/accommodation-serve-node/yarn-error.log*
+/accommodation-stu/yarn-error.log*
+
+/accommodation-admin/pnpm-debug.log*
+/accommodation-serve-node/pnpm-debug.log*
+/accommodation-stu/pnpm-debug.log*
+
 
 # Editor directories and files
 .idea
