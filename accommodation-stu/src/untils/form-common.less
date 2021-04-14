@@ -1,0 +1,110 @@
+// input
+/deep/.el-input.is-disabled .el-input__inner {
+    cursor: text !important;
+    &::placeholder {
+        color: #666;
+    }
+}
+/deep/ .el-textarea__inner:focus,
+/deep/ .el-input__inner:focus{
+    border-color: #009999 !important;
+}
+
+ /deep/ .el-input.is-active 
+ /deep/ .el-input__inner, .el-input__inner:focus {
+    border-color: #009999 !important;
+}
+
+/deep/ .el-select .el-input.is-focus .el-input__inner{
+    border-color: #009999 !important;
+}
+
+// radio
+/deep/ .el-radio__input.is-checked .el-radio__inner {
+    background-color: #009999 !important;
+}
+/deep/ .el-radio__input.is-checked + .el-radio__label {
+    color: #009999 !important;
+}
+
+// primary
+.el-button--primary{
+    color: #fff;
+    font-size: 14px;
+    background-color: #009999;
+    border-color: #009999;
+}
+
+.el-button--primary:hover{
+    background-color: #33aba0;
+    border-color: #33aba0;
+}
+
+.el-button--primary:active{
+    color: #fff;
+    background-color: #009999;
+    border-color: #009999;
+}
+
+// default
+.el-button--default:hover{
+    background-color: #ffffff;
+    border-color: #99d4cf;
+    color: #009999;
+}
+
+.el-button--default:active{
+    color: #fff;
+    background-color: #009999;
+    border-color: #009999;
+}
+
+.el-button--default:focus{
+    background-color: #ffffff;
+    border-color: #99d4cf;
+    color: #009999;
+}
+
+// checkbox
+/deep/ .el-checkbox__input.is-checked .el-checkbox__inner {
+    color: #009999;
+    background-color: #009999;
+}
+
+/deep/ .el-checkbox__input.is-checked + .el-checkbox__label {
+    color: #666;
+}
+
+// 下拉框 select
+/deep/ .el-select,
+/deep/ .el-date-editor.el-input{
+    width: 100%;
+}
+
+/deep/ .el-col{
+    margin: 3px 0px;
+}
+
+// 图片
+/deep/ .el-image {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+// 下拉菜单
+/deep/ .el-dropdown-menu__item:hover {
+    background-color: #ecf5ff !important;
+    color: #009999 !important;
+}
+
+.create-isLoading {
+    .el-loading-spinner {
+      i {
+        color: #009999 !important;
+      }
+
+      .el-loading-text {
+        color: #009999 !important;
+      }
+    }
+}
